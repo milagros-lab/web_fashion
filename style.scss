@@ -1,0 +1,223 @@
+body {
+  background-color: #292c33;
+}
+
+.navegador {
+  justify-content: space-around;
+  .icono {
+    justify-content: flex-end;
+  }
+}
+
+.primeraLinea {
+  height: 48vh;
+  padding-top: 20px;
+
+  .cuadrado1 {
+    background-image: linear-gradient(180deg, #edded7, #c4d1eb);
+    display: flex;
+    align-items: center;
+    p {
+      padding: 33px;
+      font-size: 35px;
+    }
+  }
+  .cuadrado2 {
+    background-image: url("./images/person1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cuadrado3 {
+    background-color: #424e64;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    p {
+      color: #d9af99;
+    }
+  }
+  button {
+    color: #d9af99;
+    background-color: transparent;
+    border: solid #d9af99;
+    padding: 0 30px;
+  }
+}
+
+.segundaLinea {
+  height: 40vh;
+
+  .primera {
+    background-image: url("./images/person2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .segunda {
+    background-color: #e7ddda;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+    p {
+      font-style: italic;
+    }
+  }
+  .tercera {
+    background-image: url("./images/person3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.terceraLinea {
+  height: 40vh;
+
+  .primera {
+    color: white;
+    background-color: #4e5a72;
+    p {
+      padding: 40px;
+      font-size: 35px;
+    }
+  }
+  .segunda {
+    background-image: url("./images/person4.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.cuartaLinea {
+  height: 40vh;
+
+  .primera {
+    padding: 0;
+    .imagen {
+      height: 20vh;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .texto {
+    height: 20vh;
+    color: white;
+    background-color: #4e5a72;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .segunda {
+    padding: 0;
+    .texto {
+      height: 20vh;
+      color: white;
+      background-color: #4e5a72;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .imagen {
+      height: 20vh;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .tercera {
+    padding: 0;
+    height: 40vh;
+    div {
+      height: 100%;
+      width: 100%;
+      background-image: url("./images/person7.jpg");
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+.reloj {
+  padding: 2vw;
+  color: white;
+  .contenedor-reloj {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 1vw;
+    img {
+      width: 140px;
+      height: 140px;
+      object-position: center;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  button {
+    width: 20%;
+    color: white;
+    background-color: transparent;
+    border: solid white;
+  }
+}
+
+.cuarta {
+  height: 100vh;
+  .primeraCol {
+    padding: 0;
+    height: 100%;
+    background-image: url("./images/person8.jpg");
+  }
+  .segundaCol {
+    padding: 0;
+    .texto {
+      height: 50vh;
+      color: white;
+      background-color: #4e5a72;
+      display: flex;
+      flex-direction: column;
+      padding: 100px 40px;
+    }
+
+    .imagen {
+      height: 50vh;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
+
+.suscribe {
+  margin-top: 40px;
+  padding: 40px;
+  color: white;
+  background-color: #375079;
+  .inputFondo {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+}
+
+.ultima {
+  color: white;
+  background-color: black;
+  padding: 40px;
+  text-align: justify;
+  padding-left: 13vw;
+}

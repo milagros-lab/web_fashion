@@ -1,0 +1,293 @@
+body {
+  background-color: #292c33;
+}
+
+.navegador {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navegador .icono {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.primeraLinea {
+  height: 48vh;
+  padding-top: 20px;
+}
+
+.primeraLinea .cuadrado1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#edded7), to(#c4d1eb));
+  background-image: linear-gradient(180deg, #edded7, #c4d1eb);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primeraLinea .cuadrado1 p {
+  padding: 33px;
+  font-size: 35px;
+}
+
+.primeraLinea .cuadrado2 {
+  background-image: url("./images/person1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.primeraLinea .cuadrado3 {
+  background-color: #424e64;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 64px;
+}
+
+.primeraLinea .cuadrado3 p {
+  color: #d9af99;
+}
+
+.primeraLinea button {
+  color: #d9af99;
+  background-color: transparent;
+  border: solid #d9af99;
+  padding: 0 30px;
+}
+
+.segundaLinea {
+  height: 40vh;
+}
+
+.segundaLinea .primera {
+  background-image: url("./images/person2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.segundaLinea .segunda {
+  background-color: #e7ddda;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+}
+
+.segundaLinea .segunda p {
+  font-style: italic;
+}
+
+.segundaLinea .tercera {
+  background-image: url("./images/person3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.terceraLinea {
+  height: 40vh;
+}
+
+.terceraLinea .primera {
+  color: white;
+  background-color: #4e5a72;
+}
+
+.terceraLinea .primera p {
+  padding: 40px;
+  font-size: 35px;
+}
+
+.terceraLinea .segunda {
+  background-image: url("./images/person4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cuartaLinea {
+  height: 40vh;
+}
+
+.cuartaLinea .primera {
+  padding: 0;
+}
+
+.cuartaLinea .primera .imagen {
+  height: 20vh;
+}
+
+.cuartaLinea .primera .imagen img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.cuartaLinea .texto {
+  height: 20vh;
+  color: white;
+  background-color: #4e5a72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
+}
+
+.cuartaLinea .segunda {
+  padding: 0;
+}
+
+.cuartaLinea .segunda .texto {
+  height: 20vh;
+  color: white;
+  background-color: #4e5a72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
+}
+
+.cuartaLinea .segunda .imagen {
+  height: 20vh;
+}
+
+.cuartaLinea .segunda .imagen img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.cuartaLinea .tercera {
+  padding: 0;
+  height: 40vh;
+}
+
+.cuartaLinea .tercera div {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/person7.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.reloj {
+  padding: 2vw;
+  color: white;
+}
+
+.reloj .contenedor-reloj {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 1vw;
+}
+
+.reloj .contenedor-reloj img {
+  width: 140px;
+  height: 140px;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  object-position: center;
+}
+
+.reloj button {
+  width: 20%;
+  color: white;
+  background-color: transparent;
+  border: solid white;
+}
+
+.cuarta {
+  height: 100vh;
+}
+
+.cuarta .primeraCol {
+  padding: 0;
+  height: 100%;
+  background-image: url("./images/person8.jpg");
+}
+
+.cuarta .segundaCol {
+  padding: 0;
+}
+
+.cuarta .segundaCol .texto {
+  height: 50vh;
+  color: white;
+  background-color: #4e5a72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 40px;
+}
+
+.cuarta .segundaCol .imagen {
+  height: 50vh;
+}
+
+.cuarta .segundaCol .imagen img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.suscribe {
+  margin-top: 40px;
+  padding: 40px;
+  color: white;
+  background-color: #375079;
+}
+
+.suscribe .inputFondo {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.ultima {
+  color: white;
+  background-color: black;
+  padding: 40px;
+  text-align: justify;
+  padding-left: 13vw;
+}
+/*# sourceMappingURL=style.css.map */
